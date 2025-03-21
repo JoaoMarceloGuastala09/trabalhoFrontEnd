@@ -1,7 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
 body {
-    background-color: black;
+    background-color: rgb(32, 188, 209);
     color: white;
-    font-family: "Big Shoulders Inline", Arial, Helvetica, sans-serif;
+    font-family: "Oswald", Arial, Helvetica, sans-serif;
+}
+
+.titulo {
+    text-align: center;
+    flex-grow: 1;
+    font-size: 2em;
+}
+
+.logoprincipal {
+    position: absolute;
+    left: 20px;
+    width: 40px;
 }
